@@ -20,6 +20,10 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 import {  MatInputModule } from '@angular/material/input';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatSelectModule} from '@angular/material/select';
+import { MatNativeDateModule } from '@angular/material/core';
 
 import { HomeComponent } from './components/core/home/home.component';
 import { AuthorComponent } from './components/core/author/author.component';
@@ -31,6 +35,7 @@ import { StavkaPorudzbineComponent } from './components/stavka-porudzbine/stavka
 import { HttpClientModule } from '@angular/common/http';
 import { ArtiklDialogComponent } from './components/dialogs/artikl-dialog/artikl-dialog.component';
 import { DobavljacDialogComponent } from './components/dialogs/dobavljac-dialog/dobavljac-dialog.component';
+import { PorudzbinaDialogComponent } from './components/dialogs/porudzbina-dialog/porudzbina-dialog.component';
 
 
 
@@ -48,7 +53,8 @@ import { DobavljacDialogComponent } from './components/dialogs/dobavljac-dialog/
     PorudzbinaComponent,
     StavkaPorudzbineComponent,
     ArtiklDialogComponent,
-    DobavljacDialogComponent
+    DobavljacDialogComponent,
+    PorudzbinaDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -67,6 +73,10 @@ import { DobavljacDialogComponent } from './components/dialogs/dobavljac-dialog/
     MatDialogModule,
     MatFormFieldModule,
     MatInputModule,
+    MatDatepickerModule,
+    MatCheckboxModule,
+    MatSelectModule,
+    MatNativeDateModule,
     FormsModule
 
   ],
