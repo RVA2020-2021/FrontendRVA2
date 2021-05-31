@@ -36,6 +36,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { ArtiklDialogComponent } from './components/dialogs/artikl-dialog/artikl-dialog.component';
 import { DobavljacDialogComponent } from './components/dialogs/dobavljac-dialog/dobavljac-dialog.component';
 import { PorudzbinaDialogComponent } from './components/dialogs/porudzbina-dialog/porudzbina-dialog.component';
+import { StavkaPorudzbineDialogComponent } from './components/dialogs/stavka-porudzbine-dialog/stavka-porudzbine-dialog.component';
+import { MatSortModule } from '@angular/material/sort';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 
 
@@ -54,7 +57,8 @@ import { PorudzbinaDialogComponent } from './components/dialogs/porudzbina-dialo
     StavkaPorudzbineComponent,
     ArtiklDialogComponent,
     DobavljacDialogComponent,
-    PorudzbinaDialogComponent
+    PorudzbinaDialogComponent,
+    StavkaPorudzbineDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -77,6 +81,8 @@ import { PorudzbinaDialogComponent } from './components/dialogs/porudzbina-dialo
     MatCheckboxModule,
     MatSelectModule,
     MatNativeDateModule,
+    MatSortModule,
+    MatPaginatorModule,
     FormsModule
 
   ],

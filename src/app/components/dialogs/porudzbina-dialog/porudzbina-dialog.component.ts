@@ -1,7 +1,7 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { error } from 'selenium-webdriver';
+
 import { Dobavljac } from 'src/app/models/dobavljac';
 import { Porudzbina } from 'src/app/models/porudzbina';
 import { DobavljacService } from 'src/app/services/dobavljac.service';
